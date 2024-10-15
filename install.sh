@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "export PATH=\"$PATH:/home/user/anaconda3/bin\"" >> ~/.bashrc
+export PATH="$PATH:/home/user/anaconda3/bin"
 
 # update everything
 sudo apt update
@@ -18,7 +20,6 @@ conda install matplotlib numpy pandas
 # bind 'set bell-style none'
 
 echo "alias python='python3'" >> ~/.bashrc
-echo "export PATH=\"$PATH:/home/user/anaconda3/bin\"" >> ~/.bashrc
 
 echo "#!/bin/bash" > ~/Desktop/dev_env_start.sh
 echo "jupyter lab" >> ~/Desktop/dev_env_start.sh
