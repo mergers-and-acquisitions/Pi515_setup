@@ -23,3 +23,5 @@ echo "alias python='python3'" >> ~/.bashrc
 
 echo "#!/bin/bash" > ~/Desktop/dev_env_start.sh
 echo "jupyter lab" >> ~/Desktop/dev_env_start.sh
+
+rm Anaconda3-2024.06-1-Linux-x86_64.sh
