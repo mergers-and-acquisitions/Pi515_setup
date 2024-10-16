@@ -4,9 +4,9 @@ export PATH="$PATH:/home/user/anaconda3/bin"
 
 # update everything
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y
 
-sudo apt install libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libxtst6 libxi6 curl python3-pip
+sudo apt install -y libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libxtst6 libxi6 curl python3-pip
 
 curl -O https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
 
